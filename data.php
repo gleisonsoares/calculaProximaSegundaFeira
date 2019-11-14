@@ -11,6 +11,13 @@ $diadasemanaindice = $hoje["wday"];
 #Verifica qual índice o dia recebe
 switch ($diadasemanaindice) {
     
+    #se o dia atual for terça-feira    
+    case 2:
+        $diadasemanavalor=date("d");
+        $proximasegundavalor=$diadasemanavalor+6;
+        echo 'A próxima segunda-feira será dia ' .$proximasegundavalor, PHP_EOL;
+    break;
+        
     #se o dia atual for quarta-feira    
     case 3:
         $diadasemanavalor=date("d");
