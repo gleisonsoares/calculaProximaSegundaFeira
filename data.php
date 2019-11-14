@@ -11,39 +11,39 @@ $diadasemanaindice = $hoje["wday"];
 #Verifica qual índice o dia recebe
 switch ($diadasemanaindice) {
     
-    #se for quarta-feira    
+    #se o dia atual for quarta-feira    
     case 3:
         $diadasemanavalor=date("d");
         $proximasegundavalor=$diadasemanavalor+5;
-        echo 'Pauta da Reunião para o dia ' .$proximasegundavalor, PHP_EOL;
+        echo 'A próxima segunda-feira será dia ' .$proximasegundavalor, PHP_EOL;
     break;
 
-    #se for quinta-feira    
+    #se o dia atual for quinta-feira    
     case 4:
         $diadasemanavalor=date("d");
         $proximasegundavalor=$diadasemanavalor+4;
-        echo 'Pauta da Reunião para o dia ' .$proximasegundavalor, PHP_EOL;
+        echo 'A próxima segunda-feira será dia ' .$proximasegundavalor, PHP_EOL;
     break;
 
-    #se for sexta-feira    
+    #se o dia atual for sexta-feira    
     case 5:
         $diadasemanavalor=date("d");
         $proximasegundavalor=$diadasemanavalor+3;
-        echo 'Pauta da Reunião para o dia ' .$proximasegundavalor, PHP_EOL;
+        echo 'A próxima segunda-feira será dia ' .$proximasegundavalor, PHP_EOL;
     break;
 
-    #se for Sábado    
+    #se o dia atual for Sábado    
     case 6:
         $diadasemanavalor=date("d");
         $proximasegundavalor=$diadasemanavalor+2;
-        echo 'Pauta da Reunião para o dia ' .$proximasegundavalor, PHP_EOL;
+        echo 'A próxima segunda-feira será dia ' .$proximasegundavalor, PHP_EOL;
     break;
     
-    #se for domingo    
+    #se o dia atual for domingo    
     case 0:
         $diadasemanavalor=date("d");
         $proximasegundavalor=$diadasemanavalor+1;
-        echo 'Pauta da Reunião para o dia ' .$proximasegundavalor, PHP_EOL;
+        echo 'A próxima segunda-feira será dia ' .$proximasegundavalor, PHP_EOL;
     break;
 }
 ?>
